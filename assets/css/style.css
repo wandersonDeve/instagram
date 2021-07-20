@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    width: 60%;
+    height:100vh;
+}
+
+.fone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.fone img{
+    height: 50rem;
+}
+
+.continuar{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.grupo{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.grupo:nth-child(1){
+    min-height:20rem;
+}
+
+.instagram-logo{
+    height:3rem;
+}
+
+.foto-perfil{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 1rem;;
+}
+
+.foto-perfil img{
+    height:6rem;
+}
+
+.instagram-login{
+    background-color: #0095f6;
+    color: #ffffff;
+    margin-top: 1.6rem;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-logout{
+    margin-top: 2rem;
+}
+.blue{
+    color: #0095f6;
+}
